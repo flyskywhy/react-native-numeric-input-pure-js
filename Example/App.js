@@ -11,7 +11,7 @@ import {
   ScrollView,
   View
 } from 'react-native';
-import NumericInput from 'react-native-numeric-input'
+import NumericInput from 'react-native-numeric-input-pure-js'
 import { create, PREDEF_RES } from 'react-native-pixel-perfect'
 const calcSize = create(PREDEF_RES.iphone7.px)
 
@@ -50,13 +50,13 @@ export default class App extends Component {
           onLimitReached={(isMin, msg) => console.log(isMin, msg)}
           totalWidth={80}
           totalHeight={30}
-          iconSize={10}
+          iconColor="white"
           step={1}
           minValue={0}
           valueType="real"
           rounded editable={false}
           textColor="#B0228C"
-          iconStyle={{ color: "white" }}
+          // iconStyle={{ color: "white" }}
           rightButtonBackgroundColor="#18c2ef"
           leftButtonBackgroundColor="#ff8080"
         />

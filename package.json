@@ -1,5 +1,5 @@
 {
-  "name": "react-native-numeric-input",
+  "name": "react-native-numeric-input-pure-js",
   "version": "1.9.1",
   "description": "a stylish numeric input for react native",
   "main": "index.js",
@@ -7,37 +7,34 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native",
-    "react-component",
-    "react-native-component",
-    "react",
-    "mobile",
-    "ios",
     "android",
-    "number-input",
-    "numeric-input",
+    "ios",
+    "mobile",
     "number",
+    "number-input",
+    "numeric",
+    "numeric-input",
     "input",
-    "numeric"
+    "react",
+    "react-component",
+    "react-native",
+    "react-native-component"
   ],
   "author": {
     "name": "omri himelbrand",
     "email": "himelbrand@gmail.com"
   },
-  "homepage": "https://github.com/himelbrand/react-native-numeric-input",
+  "homepage": "https://github.com/flyskywhy/react-native-numeric-input-pure-js",
   "bugs": {
-    "url": "https://github.com/himelbrand/react-native-numeric-input/issues"
+    "url": "https://github.com/flyskywhy/react-native-numeric-input-pure-js/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/himelbrand/react-native-numeric-input.git"
+    "url": "git://github.com/flyskywhy/react-native-numeric-input-pure-js.git"
   },
   "license": "MIT",
   "dependencies": {
     "prop-types": "^15.6.1",
     "react-native-pixel-perfect": "^1.0.1"
-  },
-  "peerDependencies": {
-    "react-native-vector-icons": "^9.*"
   }
 }

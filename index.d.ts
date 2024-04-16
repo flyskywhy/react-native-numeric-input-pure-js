@@ -9,7 +9,7 @@ declare module 'react-native-numeric-input' {
     step?: number
     valueType?: 'integer' | 'real'
     initValue?: number
-    iconSize?: number
+    iconColor?: Color
     borderColor?: Color
     iconStyle?: ViewStyle
     totalWidth?: number
